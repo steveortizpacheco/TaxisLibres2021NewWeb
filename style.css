@@ -115,6 +115,12 @@
 	
 	
 	/*----*****---- << estilos nuevos >> ----*****----*/
+	.container_head{
+		margin: 0 auto;
+    width: 1170px;
+    z-index: 3333;
+    position: relative;
+	}
 	.tamano_fuente{
 		font-size: 18px;
 	}
@@ -900,7 +906,7 @@
 	
 	/*----*****---- << Slider >> ----*****----*/	
 		
-	#slider { clear: both; display: block; float: left; margin: 0; padding: 0; position: relative; width: 100%; }
+	#slider { clear: both; display: block; float: left; margin-top: -200px; padding: 0; position: relative; width: 100%; }
 	#slider-container { float: left; margin: 0; padding: 0; width: 100%; }
 	#slider-container img { float: left; width: 100%; max-width: 100%; }
 	

@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
-<title>Nosotros</title>
+<title>Home | Taxis Libres</title>
 
 <!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/ico">
@@ -20,11 +20,13 @@
     
 <!-- Additional Stylesheets -->    
     <link rel="stylesheet" href="css/component.css" type="text/css">
-    <link rel="stylesheet" href="css/carrusel.css" type="text/css">
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
     <link href="css/pace-theme-loading-bar.css" rel="stylesheet" media="all" />
          
 <!-- Google fonts -->  
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -34,63 +36,32 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-	<link rel="stylesheet" id="rs-plugin-settings-css"  href="css/settings.css" type="text/css" media="all" />    
+	<link rel="stylesheet" href="js/layerslider/css/layerslider.css" type="text/css">
 
-    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script> 
-    
-    <script type="text/javascript">
-	var mytheme_urls = {
- 		scroll : 'disable'
-	};
-    </script>
-     <script type="text/javascript">
-       $('section.awSlider .carousel').carousel({
-	pause: "hover",
-  interval: 2000
-});
-
-var startImage = $('section.awSlider .item.active > img').attr('src');
-$('section.awSlider').append('<img src="' + startImage + '">');
-
-$('section.awSlider .carousel').on('slid.bs.carousel', function () {
- var bscn = $(this).find('.item.active > img').attr('src');
-	$('section.awSlider > img').attr('src',bscn);
-});
-
-
-/* 
-Philips ambilight tv
-Üzerine gleince duruyor slide
-*/
-        </script>      	
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script> 	
 
 </head>
 
-<body>
+<body class="page-template-tpl-fullwidth-php">
 	<!-- **Wrapper** -->
- 	<div class="wrapper">
+ 	<div class="wrapper"> 
     
         <div id="loader-wrapper">
-            <div class="loader">
-                <!-- the component 
-                <div class="pre-loader"></div> -->                   
-            </div>
-        </div>         
-    
-    	<!-- **Header Top Bar** -->
+           
+        </div>
+        <!-- **Header Wrapper** -->
+        <!-- **Header Top Bar** -->
 	   	<div id="bbar-wrapper" style="background-color: #1b1f39;">
-        	<div class="container">
+        	<div class="container_head">
                 <div style="width: 100%;">
                     <a href=""><img src="images/logo_tl.svg" style="margin: 0 auto; display: block;" alt="logo"></a>	
                 </div>
         	</div>
 	   	</div> <!-- **Header Top Bar Ends** --> 
-        
-        <!-- **Header Wrapper** -->
         <div>        
         	<!-- **Header** -->
             <header id="header" class="header5">
-                <div class="container">
+                <div class="container_head">
                 	<!-- **Logo** -->
                      <!-- **Main-Menu Navigation** -->
                      <div id="primary-menu">
@@ -133,311 +104,127 @@ Philips ambilight tv
             <div style="width: 100%; height: 100px; background-color: #1b1f39; display: block;"></div> 
         
         </div> <!-- **Header Wrapper Ends** -->
-                        
-    
-        <!-- **Main** -->
-        <div style="width: 100%; height: 80px; margin:0 auto; background-color:#6480C8;">
-            <div class="contenedor_fechas">
-                <div onclick="currentSlide(1)">
-                    <span class="dot"><p class="fecha_texto">1986</p></span>
-                </div>
-                <div onclick="currentSlide(2)">
-                    <span class="dot" ><p class="fecha_texto_2">1988</p></span>
-                </div>
-                <div onclick="currentSlide(3)">
-                    <span class="dot"><p class="fecha_texto">1990</p></span>
-                </div>
-                <div onclick="currentSlide(4)">
-                    <span class="dot" ><p class="fecha_texto_2">1992</p></span>
-                </div>
-                <div onclick="currentSlide(5)">
-                    <span class="dot"><p class="fecha_texto">1994</p></span>
-                </div>
-                <div onclick="currentSlide(6)">
-                    <span class="dot" ><p class="fecha_texto_2">1996</p></span>
-                </div>
-                <div onclick="currentSlide(7)">
-                    <span class="dot"><p class="fecha_texto">1998</p></span>
-                </div>
-                <div onclick="currentSlide(8)">
-                    <span class="dot" ><p class="fecha_texto_2">2000</p></span>
-                </div>
-                <div onclick="currentSlide(9)">
-                    <span class="dot"><p class="fecha_texto">2002</p></span>
-                </div>
-                <div onclick="currentSlide(10)">
-                    <span class="dot" ><p class="fecha_texto_2">2004</p></span>
-                </div>
-                <div onclick="currentSlide(11)">
-                    <span class="dot"><p class="fecha_texto">2006</p></span>
-                </div>
-                <div onclick="currentSlide(12)">
-                    <span class="dot" ><p class="fecha_texto_2">2008</p></span>
-                </div>
-                <div onclick="currentSlide(13)">
-                    <span class="dot"><p class="fecha_texto">2010</p></span>
-                </div>
-                <div onclick="currentSlide(14)">
-                    <span class="dot" ><p class="fecha_texto_2">2012</p></span>
-                </div>
-                <div onclick="currentSlide(15)">
-                    <span class="dot"><p class="fecha_texto">2014</p></span>
-                </div>
-                <div onclick="currentSlide(16)">
-                    <span class="dot" ><p class="fecha_texto_2">2016</p></span>
-                </div>
-                <div onclick="currentSlide(17)">
-                    <span class="dot"><p class="fecha_texto">2018</p></span>
-                </div>
-                <div onclick="currentSlide(18)">
-                    <span class="dot"><p class="fecha_texto_2">2020</p></span>
-                </div>
-               
-            </div>
-            <div style="width: 94%; height: 2px; background-color: #fff; margin-left: 35px; margin-right: 20px; margin-top: -31px;"></div>
-        </div>
-        <div class="slideshow-container">
-
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 18</div>
-              <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">1986</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 18</div>
-              <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">1988</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 18</div>
-              <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">1990</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">1992</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">1994</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">6 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">1996</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">7 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">1998</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">8 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2000</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">9 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2002</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">10 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2004</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">11 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2006</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">12 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2008</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">13 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2010</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">14 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2012</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">15 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2014</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">16 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2016</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            <div class="mySlides fade">
-                <div class="numbertext">17 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2018</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">18 / 18</div>
-                <div class="historia"><img src="images/carrusel/uno.png" style="width:100%"></div>
-              <div class="slider_fecha">2020</div>
-              <div class="slider_contenido_imagen slider"><img src="images/historia_prueba.jpg"></div>
-              <div class="titulo_slider">WhatsApp con inteligencia artificial</div>
-              <div class="descripcion_slider descripcion"><p>los viajes de tus colaboradores por medio de parámetros como: horarios, presupuestos, programación y trazabilidad de la info con el propósito de optimizar los recursos.</p> </div>
-              
-            </div>
-              
-            
-            <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-arrow-left"></i></a>
-            <a class="next" onclick="plusSlides(1)"><i class="fas fa-arrow-right"></i></a>
-            
-            </div>
-            <br>
-		<div id="main">                                       
-            <!-- **Content Main** -->
-            
-            <section>     
-                <!-- **Primary** -->
-                <div class="content-full-width" id="primary">   
-                    <div class="fullwidth-section">
-                        <div class="fullwidth-bg">
-                            <div class="container-fluid">
-                                <div style="width: 100%; display: flex; padding-left: -15px; padding-right:-15px;">
-                                    <div style="width: 50%;">
-                                        <div style="width: 100%; height: 390px; position: relative;">
-                                            <iframe class="esdacode_video" src="https://www.youtube.com/embed/Yypz5gkuCtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        
-                                        </div>
-                                    
-                                    </div>
-                                    <div style="width: 50%;">
-                                        <div style="width: 100%;height: 390px; position: relative;">
-                                            <iframe class="esdacode_video" src="https://www.youtube.com/embed/QPR6XaC8GUA?start=2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div><!-- **container-fluid** -->
-                            <div class="container-fluid">
-                                <div style="width: 100%; display: flex; padding-left: -15px; padding-right:-15px;">
-                                    <div style="width: 50%;">
-                                        <div style="width: 100%; height: 390px; position: relative;">
-                                            <iframe class="esdacode_video" src="https://www.youtube.com/embed/SnBxZkW6DPg?start=488" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        
-                                        </div>
-                                    
-                                    </div>
-                                    <div style="width: 50%;">
-                                        <div style="width: 100%;height: 390px; position: relative;">
-                                            <iframe class="esdacode_video" src="https://www.youtube.com/embed/ewKoc5wemcw?start=461" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div><!-- **container-fluid** -->
-                            <div class="container-fluid">
-                                <div style="width: 100%; display: flex; padding-left: -15px; padding-right:-15px;">
-                                    <div style="width: 100%;height: 680px; position: relative;">
-                                        <iframe class="esdacode_video" src="https://www.youtube.com/embed/eI3NGdHCR-Y" frameborder="0" allow=" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-
-                            </div><!-- **container-fluid** -->
-                        </div>
-                    </div>                                                                                                                                                                                      
-                </div> <!-- **Primary Ends** -->
-            </section>  <!-- **Content Main Ends** -->
-            <div class="dt-sc-hr-invisible-medium"></div>
-            <div class="dt-sc-clear"></div>  
+        <!-- **Main** -->        
+		<div id="main">
+        
+            <!-- **Slider Section** -->
+            <div id="slider"> 
                 
-		</div> <!-- **Main Ends** --> 
+                <div id="layerslider_6" class="ls-wp-container rev_slider_wrapper" style=" width:100%; height:600px; max-width:1920px; margin:0 auto; margin-bottom: 0;">
+                
+                    <div class="ls-slide slide1" data-ls="slidedelay:10000;transition2d:4;">
+                        <img src="images/slider/bogota_taxislibres.jpg" data-src="images/slider/bogota_taxislibres.jpg" class="ls-bg" alt="Slide background" />
+                        <div class="ls-l ls-text" style="top:250px;right:700px;font-weight:600; z-index:5;padding-left:0px;font-family: 'Montserrat', sans-serif;font-size:24px;line-height:46px;color:#C3DC00;white-space: nowrap;" data-ls="offsetxin:700;durationin:2500;delayin:1500;">#TaxisLibresMeProtege</div>
+                        <div class="ls-l ls-text" style="top:290px;right:700px;font-weight:700; z-index:5;padding-left:0px;font-family: 'Work Sans', sans-serif;font-size:40px;line-height:46px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:200;durationin:2500;delayin:2000;transformoriginin:left 50% 0;offsetxout:0;rotateyout:-90;transformoriginout:left 50% 0;">Somos una App 100% Colombiana</br> que mueve al país</div>
+                        <div class="ls-l ls-button" style="top:400px; left: 2px;font-size:26px;white-space: nowrap;" data-ls="delayin:3500;"> 
+                            <div style="display: inline-flex; ">
+                                <a href="#" class="dt-sc-button ico-button"> <span><b>Trabaja con Nosotros</b> </span></a>
+                                <a href="#" class="dt-sc-button ico-button electricblue" style="margin-left: 20px;"> <span><b>Maneja con nosotros</b></span></a>
+                            </div> 
+                        </div>
+                    </div>
+                        
+                    <div class="ls-slide slide2" data-ls="slidedelay:10000;transition2d:4;">
+                        <img src="images/slider/bogota_taxislibres.jpg" data-src="images/slider/bogota_taxislibres.jpg" class="ls-bg" alt="Slide background" />
+                        <div class="ls-l ls-text" style="top:250px;right:700px;font-weight:600; z-index:5;padding-left:0px;font-family: 'Montserrat', sans-serif;font-size:24px;line-height:46px;color:#C3DC00;white-space: nowrap;" data-ls="offsetxin:700;durationin:2500;delayin:1500;">#TaxisLibresMeProtege</div>
+                        <div class="ls-l ls-text" style="top:290px;right:700px;font-weight:700; z-index:5;padding-left:0px;font-family: 'Work Sans', sans-serif;font-size:40px;line-height:46px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:200;durationin:2500;delayin:2000;transformoriginin:left 50% 0;offsetxout:0;rotateyout:-90;transformoriginout:left 50% 0;">Somos una App 100% Colombiana</br> que mueve al país</div>
+                        <div class="ls-l ls-button" style="top:400px; left: 2px;font-size:26px;white-space: nowrap;" data-ls="delayin:3500;"> 
+                            <div style="display: inline-flex; ">
+                                <a href="#" class="dt-sc-button ico-button"> <span><b>Trabaja con Nosotros</b> </span></a>
+                                <a href="#" class="dt-sc-button ico-button electricblue" style="margin-left: 20px;"> <span><b>Maneja con nosotros</b></span></a>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                    <div class="ls-slide slide3" data-ls="slidedelay:10000;transition2d:4;">
+                        <img src="images/slider/bogota_taxislibres.jpg" data-src="images/slider/bogota_taxislibres.jpg" class="ls-bg" alt="Slide background" />
+                        <div class="ls-l ls-text" style="top:250px;right:700px;font-weight:600; z-index:5;padding-left:0px;font-family: 'Montserrat', sans-serif;font-size:24px;line-height:46px;color:#C3DC00;white-space: nowrap;" data-ls="offsetxin:700;durationin:2500;delayin:1500;">#TaxisLibresMeProtege</div>
+                        <div class="ls-l ls-text" style="top:290px;right:700px;font-weight:700; z-index:5;padding-left:0px;font-family: 'Work Sans', sans-serif;font-size:40px;line-height:46px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:200;durationin:2500;delayin:2000;transformoriginin:left 50% 0;offsetxout:0;rotateyout:-90;transformoriginout:left 50% 0;">Somos una App 100% Colombiana</br> que mueve al país</div>
+                        <div class="ls-l ls-button" style="top:400px; left: 2px;font-size:26px;white-space: nowrap;" data-ls="delayin:3500;"> 
+                            <div style="display: inline-flex; ">
+                                <a href="#" class="dt-sc-button ico-button"> <span><b>Trabaja con Nosotros</b> </span></a>
+                                <a href="#" class="dt-sc-button ico-button electricblue" style="margin-left: 20px;"> <span><b>Maneja con nosotros</b></span></a>
+                            </div> 
+                        </div>
+                       
+                    </div>
+                </div>
+            </div><!-- **Slider Section - End** -->            
+          
+            <!-- **Content Main** -->                                          
+            <section class="content-main">
+                <div class="fullwidth-section" style="background-color:#fafafa;" >
+                    <div class="fullwidth-bg">	
+                        <div class="container">
+                            <div class="dt-sc-hr-invisible"></div>
+                            <div class="dt-sc-clear"></div>
+                            <div class="column dt-sc-one-sixth first">
+                                <div class="dt-sc-animate-num">
+                                    <div class="dt-sc-icon">
+                                        <img src="images/ico-pic1.png" alt="animate-icon1">
+                                    </div>
+                                    <div data-value="1573283" class="dt-sc-num-count">1573283</div>
+                                    <span>descargas de </br>Taxis Libres App</span>
+                                </div>
+                            </div>
+                            <div class="column dt-sc-one-sixth">
+                                <div class="dt-sc-animate-num">
+                                    <div class="dt-sc-icon">
+                                        <img src="images/ico-pic2.png" alt="animate-icon2">
+                                    </div>
+                                    <div data-value="100000" class="dt-sc-num-count">100000</div>
+                                    <span>Viajes diarios</span>
+                                </div>
+                            </div>
+                            <div class="column dt-sc-one-sixth">
+                                <div class="dt-sc-animate-num">
+                                    <div class="dt-sc-icon">
+                                        <img src="images/ico-pic3.png" alt="animate-icon3">
+                                    </div>
+                                    <div data-value="1356" class="dt-sc-num-count">1356</div>
+                                    <span>Personas forman </br>parte del equipo interno</span>
+                                </div>
+                            </div>
+                            <div class="column dt-sc-one-sixth">
+                                <div class="dt-sc-animate-num">
+                                    <div class="dt-sc-icon">
+                                        <img src="images/ico-pic4.png" alt="animate-icon4">
+                                    </div>
+                                    <div data-value="54" class="dt-sc-num-count">54</div>
+                                    <span>Cursos para conductores</span>
+                                </div>
+                            </div>
+                            <div class="column dt-sc-one-sixth">
+                                <div class="dt-sc-animate-num">
+                                    <div class="dt-sc-icon">
+                                        <img src="images/ico-pic5.png" alt="animate-icon4">
+                                    </div>
+                                    <div data-value="34" class="dt-sc-num-count">34 </div>
+                                    <span>años en Colombia</span>
+                                </div>
+                            </div>
+
+                            <div class="column dt-sc-one-sixth">
+                                <div class="dt-sc-animate-num">
+                                    <div class="dt-sc-icon">
+                                        <img src="images/ico-pic6.png" alt="animate-icon4">
+                                    </div>
+                                    <div data-value="6" class="dt-sc-num-count">6</div>
+                                    <span>Ciudades en Colombia</span>
+                                </div>
+                            </div> 
+                            <div class="dt-sc-hr-invisible-small"></div>
+                            <div class="dt-sc-hr-invisible-small"></div>
+                            <div class="dt-sc-clear"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>  <!-- **Content Main Ends** -->             
+           
+	    </div> <!-- **Main Ends** --> 
+         
+        
         <div style="width: 70px; height: 50px; position:fixed; top: 100px; left: 20px; background-color:#C3DC00;z-index: 222; border-radius: 10px; text-align: center;padding-top: 21px;line-height: 16px;"><a href="#" style="font-weight: 700;
             font-size: 14px;">Iniciar sesión</a>
             
@@ -547,54 +334,23 @@ Philips ambilight tv
                     </div>        	
                 </div>
             </div>              
-        </footer> <!-- **Footer Ends** -->        
+        </footer> <!-- **Footer Ends** -->     
         
-	</div> <!-- **Wrapper Ends** --> 
+    </div> <!-- **Wrapper Ends** --> 
     
-    <!-- **jQuery** -->
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
+	<!-- **jQuery** -->
 
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-             
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-
-	<script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
     
-    
-    <script type="text/javascript" src="js/pace.min.js"></script>    
+    <script type="text/javascript" src="js/pace.min.js"></script>
     
     <script type="text/javascript" src="js/jquery.sticky.js"></script>    
     <script type="text/javascript" src="js/jquery.dlmenu.js"></script>
 	<script type="text/javascript" src="js/inview.js"></script>
 	<script type="text/javascript" src="js/jquery.tabs.min.js"></script>
     <script type="text/javascript" src="js/jquery.tipTip.minified.js"></script>
+    <script type="text/javascript" src="js/jquery.viewport.js"></script>
 	<script type="text/javascript" src="js/jquery.donutchart.js"></script>
 	<script type="text/javascript" src="js/jquery.ui.totop.min.js"></script>    
 	<script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
@@ -607,128 +363,41 @@ Philips ambilight tv
 	<script type="text/javascript" src="js/jquery.fitvids.js"></script>        
 	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
     
+	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script> 
     <script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
-    <script type="text/javascript" src="js/carrusel.js"></script>      
-	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>    
-
-    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
-
     
-	<script type="text/javascript" src="js/revslider/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="js/revslider/jquery.themepunch.revolution.min.js"></script>      
+    <script src="js/jquery.validate.min.js"></script>
     
-	<script type="text/javascript">
-
-        /******************************************
-            -	PREPARE PLACEHOLDER FOR SLIDER	-
-        ******************************************/
-        
-
-        var setREVStartSize = function() {
-            var	tpopt = new Object();
-                tpopt.startwidth = 1170;
-                tpopt.startheight = 900;
-                tpopt.container = jQuery('#rev_slider_24_1');
-                tpopt.fullScreen = "on";
-                tpopt.forceFullWidth="off";
-
-            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
-        };
-
-        /* CALL PLACEHOLDER */
-        setREVStartSize();
-
-
-        var tpj=jQuery;
-        tpj.noConflict();
-        var revapi24;
-
-        tpj(document).ready(function() {
-
-        if(tpj('#rev_slider_24_1').revolution == undefined)
-            revslider_showDoubleJqueryError('#rev_slider_24_1');
-        else
-           revapi24 = tpj('#rev_slider_24_1').show().revolution(
-            {
-                dottedOverlay:"none",
-                delay:9000,
-                startwidth:1170,
-                startheight:900,
-                hideThumbs:200,
-
-                thumbWidth:100,
-                thumbHeight:50,
-                thumbAmount:3,
-
-                navigationType:"none",
-                navigationArrows:"solo",
-                navigationStyle:"round",
-
-                touchenabled:"on",
-                onHoverStop:"off",
-
-                swipe_velocity: 0.7,
-                swipe_min_touches: 1,
-                swipe_max_touches: 1,
-                drag_block_vertical: false,
-                
-                keyboardNavigation:"off",
-
-                navigationHAlign:"center",
-                navigationVAlign:"bottom",
-                navigationHOffset:0,
-                navigationVOffset:20,
-
-                soloArrowLeftHalign:"left",
-                soloArrowLeftValign:"center",
-                soloArrowLeftHOffset:20,
-                soloArrowLeftVOffset:0,
-
-                soloArrowRightHalign:"right",
-                soloArrowRightValign:"center",
-                soloArrowRightHOffset:20,
-                soloArrowRightVOffset:0,
-
-                shadow:0,
-                fullWidth:"off",
-                fullScreen:"on",
-
-                spinner:"spinner0",
-
-                stopLoop:"off",
-                stopAfterLoops:-1,
-                stopAtSlide:-1,
-                shuffle:"off",
-                
-                forceFullWidth:"off",
-                fullScreenAlignForce:"off",
-                minFullScreenHeight:"",
-                hideTimerBar:"on",
-                hideThumbsOnMobile:"off",
-                hideNavDelayOnMobile:1500,
-                hideBulletsOnMobile:"off",
-                hideArrowsOnMobile:"off",
-                hideThumbsUnderResolution:0,
-
-                fullScreenOffsetContainer: "",
-                fullScreenOffset: "",
-                hideSliderAtLimit:0,
-                hideCaptionAtLimit:0,
-                hideAllCaptionAtLilmit:0,
-                startWithSlide:0
-				});
-				
-        });	/*ready*/
-
-    </script>
-    <script type="text/javascript">
+	<script type="text/javascript" src="js/custom.js"></script>     
+    
+	<script src="js/layerslider/js/greensock.js" type="text/javascript"></script>
+	<script src="js/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="js/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>   
+    
+	<script type="text/javascript">var lsjQuery = jQuery;</script>
+    
+    <script type="text/javascript"> 
+	
+        lsjQuery(document).ready(function() {
+             if(typeof lsjQuery.fn.layerSlider == "undefined") { 
+                lsShowNotice('layerslider_6','jquery');
+             } 
+             else { 
+                lsjQuery("#layerslider_6").layerSlider({
+                    responsiveUnder	: 	1170, 
+                    layersContainer	: 	1170, 
+                    pauseOnHover	: 	false, 
+                    forceLoopNum	: 	false, 
+                    autoPlayVideos	: 	false, 
+                    skinsPath		: 	'js/layerslider/skins/'}) 
+            }
+        }); 
 		
 		jQuery(window).load(function() {
 			
 			//PAGE SLIDER...
-			if(jQuery('.right-slide').length) {
-				jQuery('.right-slide').each(function(){
+			if(jQuery('.left-slide').length) {
+				jQuery('.left-slide').each(function(){
 					var $this = jQuery(this).find('.page-slider');
 					$this.carouFredSel({
 						responsive: true,
@@ -736,21 +405,22 @@ Philips ambilight tv
 						width: '100%',
 						height: 'auto',
 						scroll: {
-							fx: "uncover-fade",
+							fx: "cover-fade",
 							duration: 800
 						},
-						items: { width: $this.find("li").width(),  visible: { min: 1, max: 1 } },
+						items: { width: $this.find("li").width(), height: 'auto', visible: { min: 1, max: 1 } },
 						pagination: {
-							container: ".right-slide-nav-links",
+							container: ".left-slide-nav-links",
 							anchorBuilder: false
 						}
 					});
 				});		
-			}	
+			}		
 			
 		});
-	
-	</script>  
+		
+    </script>   
+        
     
 </body>
 </html>
