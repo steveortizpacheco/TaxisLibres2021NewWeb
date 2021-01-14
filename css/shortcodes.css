@@ -96,14 +96,14 @@
 	.dt-sc-button {  cursor:pointer; display:inline-block; *display:inline; font-size:15px; /*margin: 10px 0 0;*/ float: right; position: relative; zoom:1; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; }
 	.dt-sc-button:hover { color:#fff !important; }	
 	
-	.dt-sc-button.ico-button { background: #3575b9; color: #fff; display: inline-block; font-family: 'Ubuntu', 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 24px; margin: 10px 0 0; padding: 0 0 0 25px; position: relative; text-decoration: none; text-transform: uppercase; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; }
+	.dt-sc-button.ico-button { background: #abc006; color: #121939; display: inline-block; font-family: 'Ubuntu', 'Open Sans', sans-serif; font-size: 14px; font-weight: 300; line-height: 18px; margin: 10px 0 0; padding: 0 0 0 25px; position: relative; text-decoration: none; border: 1px solid #abc006; border-radius: 38px; -webkit-border-radius: 38px; -moz-border-radius: 38px; -ms-border-radius: 38px; -o-border-radius: 38px; }
 	
-	.dt-sc-button.ico-button span { border-right: 1px solid #2563a5; display: block; float: left; line-height: 24px !important; padding: 20px 25px 20px 0 ; } 	
+	.dt-sc-button.ico-button span {  display: block; float: left; line-height: 24px !important; padding: 20px 25px 20px 0 ; } 	
 	.dt-sc-button .ico-btn-image { border-left: 1px solid #3e86d2; display: inline-block; line-height: 0; margin: 0; padding: 16px 20px; text-align: center; }
 	.dt-sc-button .ico-btn-image:after { content: ""; background-image: url(../images/ico-rounded-chevron.png); background-repeat: no-repeat; display: inline-block; height: 32px; width: 32px;  }	
 	.dt-sc-button .ico-btn-image.icon-eye:after { background-image: url(../images/icon-eye.png); height: 26px; width: 47px; }	
 	
-	#slider .dt-sc-button.ico-button:hover { background: #3575b9; }
+	#slider .dt-sc-button.ico-button:hover { background: #C3DC00; border: 1px solid #C3DC00; }
 		
 	.buttons { display: block; float: left; width: 100%; }
 	.buttons a { margin-left: 10px; }
@@ -115,7 +115,7 @@
 	.dt-sc-button.xlarge { padding:28px 35px; font-size:18px; }
 	
 	
-	.dt-sc-button.electricblue { background:#405069; *background:#405069; background:#405069\0/; }
+	.dt-sc-button.electricblue { background:#fff; *background:#fff; background:#405069\0/; }
 	.dt-sc-button.orange { background:#ff9646; *background:#ff9646; background:#ff9646\0/; }		
 	.dt-sc-button.cyan { background:#35b5b1; *background:#35b5b1; background:#35b5b1\0/; }	
 	.dt-sc-button.purple { background:#9b59b6; *background:#9b59b6; background:#9b59b6\0/; }	
@@ -512,9 +512,9 @@
 
 	.dt-sc-animate-num { text-align: center; }
 	.dt-sc-animate-num .dt-sc-icon { height: 66px; margin-bottom: 15px; margin-left: auto; margin-right: auto; position: relative; text-align: center; width: 66px; }
-	.dt-sc-animate-num .dt-sc-num-count { color: #fff; display: inline-block; font-size: 24px; margin-bottom: 10px; padding-bottom: 15px; position: relative; }
+	.dt-sc-animate-num .dt-sc-num-count { color: #1B1F3B; display: inline-block; font-size: 24px; margin-bottom: 10px; padding-bottom: 15px; position: relative; }
 	.dt-sc-animate-num .dt-sc-num-count:after { content:""; border-bottom: 1px solid #fff; bottom: 0; left: 0; margin: 0 auto; position: absolute; right: 0; width: 50px; }
-	.dt-sc-animate-num span { color: #fff; display: block; font-size: 13px; line-height: 20px; margin-bottom: 0; text-transform: capitalize; }
+	.dt-sc-animate-num span { color: #1B1F3B; display: block; font-size: 13px; line-height: 20px; margin-bottom: 0; text-transform: capitalize; }
 	
 	/*----*****---- << Testimonials >> ----*****----*/
 	
