@@ -115,6 +115,7 @@
 	
 	
 	/*----*****---- << estilos nuevos >> ----*****----*/
+	
 	.pading_tarjeta{
 		padding-left: 15px;
     padding-right: 15px
@@ -540,7 +541,8 @@
 	
 	/*----*****---- << Fullwidth Section >> ----*****----*/
 
-	.fullwidth-section { clear: both; float: left; margin: 0;  padding: 0; width: 100%; }
+	.fullwidth-section { clear: both; float: left; margin: 0;  padding: 40px 0; width: 100%; }
+	.fullwidth-section_2 { clear: both; float: left; margin: 0;  padding: 0 0; width: 100%; }
 	.fullwidth-bg { float: left; width: 100%; }	
 	
 	.fullwidth-section.white-gray, .fullwidth-section.white-gray .ico-content-wrapper.type2 .ico-content { background-color: #f9f9f9; }
